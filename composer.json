@@ -1,0 +1,90 @@
+{
+    "name": "theme/scottshealy",
+    "description": "Setup required assets for theme",
+    "type": "wordpress-theme",
+    "minimum-stability": "stable",
+
+    "authors": [
+        {
+            "name": "Scott Shealy",
+            "email": "vsshealy@gmail.com"
+        }
+    ],
+
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}/": [
+                "wpackagist-plugin/*",
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/analytify-analytics-dashboard-widget": "*",
+        "wpackagist-plugin/antispam-bee": "*",
+        "wpackagist-plugin/bbpress": "*",
+        "wpackagist-plugin/breadcrumb-navxt": "*",
+        "wpackagist-plugin/client-dash": "*",
+        "wpackagist-plugin/custom-post-type-permalinks": "*",
+        "wpackagist-plugin/custom-post-type-ui": "*",
+        "wpackagist-plugin/disable-gutenberg": "*",
+        "wpackagist-plugin/display-posts-shortcode": "*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/ele-custom-skin": "*",
+        "wpackagist-plugin/google-analytics-for-wordpress": "*",
+        "wpackagist-plugin/google-language-translator": "*",
+        "wpackagist-plugin/google-site-kit": "*",
+        "wpackagist-plugin/happy-elementor-addons": "*",
+        "wpackagist-plugin/health-check": "*",
+        "wpackagist-plugin/hummingbird-performance": "*",
+        "wpackagist-plugin/intuitive-custom-post-order": "*",
+        "wpackagist-plugin/jetpack": "*",
+        "wpackagist-plugin/mailchimp-for-wp": "*",
+        "wpackagist-plugin/php-everywhere": "*",
+        "wpackagist-plugin/post-types-order": "*",
+        "wpackagist-plugin/optinmonster": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/relevanssi": "*",
+        "wpackagist-plugin/rocket-lazy-load": "*",
+        "wpackagist-plugin/schema": "*",
+        "wpackagist-plugin/search-filter": "*",
+        "wpackagist-plugin/stratum": "*",
+        "wpackagist-plugin/sucuri-scanner": "*",
+        "wpackagist-plugin/svg-support": "*",
+        "wpackagist-plugin/theme-check": "*",
+        "wpackagist-plugin/ultimate-dashboard": "*",
+        "wpackagist-plugin/visualizer": "*",
+        "wpackagist-plugin/wp-analytify": "*",
+        "wpackagist-plugin/white-label-cms": "*",
+        "wpackagist-plugin/widgetkit-for-elementor": "*",
+        "wpackagist-plugin/wordfence": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/wp-custom-admin-interface": "*",
+        "wpackagist-plugin/wp-file-manager": "*",
+        "wpackagist-plugin/wp-mail-smtp": "*",
+        "wpackagist-plugin/wp-nested-pages": "*",
+        "wpackagist-plugin/wp-optimize": "*",
+        "wpackagist-plugin/wp-retina-2x": "*",
+        "wpackagist-plugin/wp-smushit": "*",
+        "wpackagist-plugin/wp-video-lightbox": "*",
+        "wpackagist-plugin/wpforms-lite": "*",
+        "wpackagist-plugin/wps-hide-login": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+
+    "config": {
+        "secure-http": false,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
