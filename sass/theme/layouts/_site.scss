@@ -1,0 +1,97 @@
+/**
+ * sass/theme/layouts/site.scss
+ * @package scottshealy
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+* {
+    // GLOBAL
+        box-sizing: border-box;
+
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+        @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+} // *
+
+html {
+    // GLOBAL
+        height: 100.00%;
+        width: 100.00vw;
+        position: relative;
+        overflow-x: hidden;
+
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+        @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+} // HTML
+
+body {
+    // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        position: relative;
+        margin: $margin-none;
+        padding: $padding-none;
+        background-color: $body-background-color;
+        font-family: $body-text;
+        letter-spacing: $letter-spacing-normal;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: $body-text-color;
+        
+    // MOBILE
+        @media #{$screen-xs} {
+            font-size: $font-size-phone;
+        } //.COL-XS
+
+        @media #{$screen-sm} {
+            font-size: $font-size-phone;
+        } //.COL-SM
+
+        @media #{$screen-md} {
+            font-size: $font-size-tablet;
+        } //.COL-MD
+
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+
+        @media #{$screen-lg} {
+            font-size: $font-size-desktop;
+        } //.COL-LG
+
+        @media #{$screen-xl} {
+            font-size: $font-size-desktop;
+        } //.COL-XL
+
+        @media #{$screen-xxl} {
+            font-size: $font-size-desktop;
+        } //.COL-XXL
+
+        @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+} // BODY

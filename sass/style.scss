@@ -9,3 +9,10 @@
  * License GNU General Public v3 or Later
  * License URI: http://www.gnu.org/license/gpl-3.0.html
 **/
+
+// THEME SETTINGS
+    // THEME PATH
+        $theme-path: "/wp-content/themes/scottshealy";
+
+    // @IMPORT | SETTINGS
+        @import "theme/master";

@@ -1,0 +1,53 @@
+/**
+ * sass/theme/variables/units.scss
+ * @package scottshealy
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+// GRIDS
+    // GRID-BASE
+        $grid-base: calc(100.00% / 12);
+
+    // GRIDS
+        $grid-1: $grid-base * 1;
+        $grid-2: $grid-base * 2;
+        $grid-3: $grid-base * 3;
+        $grid-4: $grid-base * 4;
+        $grid-5: $grid-base * 5;
+        $grid-6: $grid-base * 6;
+        $grid-7: $grid-base * 7;
+        $grid-8: $grid-base * 8;
+        $grid-9: $grid-base * 9;
+        $grid-10: $grid-base * 10;
+        $grid-11: $grid-base * 11;
+        $grid-12: $grid-base * 12;
+
+// MARGINS
+    // MARGIN-BASE
+        $margin-base: $base-unit;
+
+    // MARGINS
+        $margin-none: $margin-base * 0.00;
+        $margin-xxs: $margin-base * 0.50;
+        $margin-xs: $margin-base * 1.00;
+        $margin-sm: $margin-base * 2.00;
+        $margin-md: $margin-base * 4.00;
+        $margin-lg: $margin-base * 6.00;
+        $margin-xl: $margin-base * 8.00;
+        $margin-xxl: $margin-base * 10.00;
+
+// PADDINGS
+    // PADDING-BASE
+        $padding-base: $base-unit;
+
+    // PADDINGS
+        $padding-none: $padding-base * 0.00;
+        $padding-xxs: $padding-base * 0.50;
+        $padding-xs: $padding-base * 1.00;
+        $padding-sm: $padding-base * 2.00;
+        $padding-md: $padding-base * 4.00;
+        $padding-lg: $padding-base * 6.00;
+        $padding-xl: $padding-base * 8.00;
+        $padding-xxl: $padding-base * 10.00;

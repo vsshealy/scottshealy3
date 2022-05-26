@@ -1,0 +1,102 @@
+/**
+ * sass/theme/variables/media.scss
+ * @package scottshealy
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+// COLUMNS
+    $media-col-xs: "(max-width: #{$media-breakpoint-xs})";
+    $media-col-sm: "(min-width: #{$media-breakpoint-sm})";
+    $media-col-md: "(min-width: #{$media-breakpoint-md})";
+    $media-col-lg: "(min-width: #{$media-breakpoint-lg})";
+    $media-col-xl: "(min-width: #{$media-breakpoint-xl})";
+    $media-col-xxl: "(min-width: #{$media-breakpoint-xxl})";
+
+// SCREENS
+    $screen-xs: "(max-width: #{$media-breakpoint-xs})";
+    $screen-sm: "(min-width: #{$media-breakpoint-sm})";
+    $screen-md: "(min-width: #{$media-breakpoint-md})";
+    $screen-lg: "(min-width: #{$media-breakpoint-lg})";
+    $screen-xl: "(min-width: #{$media-breakpoint-xl})";
+    $screen-xxl: "(min-width: #{$media-breakpoint-xxl})";
+
+// DEVICES
+    $device-phone: "(max-width: #{$media-breakpoint-sm} - 1px)";
+    $device-tablet: "(min-width: #{$media-breakpoint-sm}) and (max-width: #{$media-breakpoint-lg} - 1px)";
+    $device-mobile: "(max-width: #{$media-breakpoint-lg} - 1px)";
+    $device-desktop: "(min-width: #{$media-breakpoint-lg})";
+    $device-desktop-sm: "(min-width: 992px)";
+    $device-desktop-md: "(min-width: 1200px)";
+    $device-desktop-lg: "(min-width: 1400px)";
+    $device-desktop-xl: "(min-width: 1920px)";
+    $device-desktop-xxl: "(min-width: 3840px)";
+
+// DISPLAYS
+    $display-retina: "(-webkit-min-pixel-ratio: 2.00), (min-resolution: 192dpi)";
+
+// BROWSERS
+    $browser-mozilla: "all and (min-moz-device-pixel-ratio: 0) and (min-resolution: 3e1dpcm)";
+    $browser-ie: "screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)";
+    $browser-webkit: "-webkit-min-device-pixel-ratio: 0";
+
+// MENUS
+    $menu-mobile: $device-mobile;
+    $menu-desktop: $device-desktop;
+
+// CONTENT
+    $content-width-sm: "(max-width: #{$site-width-content} - 1px)";
+    $content-width-lg: "(min-width: #{$site-width-content})";
+
+// TEMPLATES
+    // MEDIA
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+    // DEVICES
+        // GLOBAL
+        // MOBILE
+            @media #{$device-phone} {} //.PHONE
+            @media #{$device-tablet} {} //.TABLET
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$device-desktop-sm} {} //.DESKTOP-SM
+            @media #{$device-desktop-md} {} //.DESKTOP-MD
+            @media #{$device-desktop-lg} {} //.DESKTOP-LG
+            @media #{$device-desktop-xl} {} //.DESKTOP-XL
+            @media #{$device-desktop-xxl} {} //.DESKTOP-XXL
+
+    // MENUS
+        // GLOBAL
+        // MOBILE
+            @media #{$menu-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$menu-desktop} {} //.DESKTOP
+
+    // ALL
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG

@@ -1,0 +1,140 @@
+/**
+ * sass/theme/master.scss
+ * @package scottshealy
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+// COLORS
+    // BASE SETTINGS
+        $color-vsshealy-blue: #457abe;
+        $color-vsshealy-orange: #d76127;
+        $color-vsshealy-brown: #9b5b25;
+        $color-vsshealy-gold: #ffc70a;
+        $color-vsshealy-green: #4a9560;
+
+    // @IMPORT | FILES
+        @import "variables/colors";
+
+// UNITS
+    // BASE SETTINGS
+        $base-unit: 1.00rem;
+        $site-width-min: 100.00%;
+        $site-width-max: 100.00%;
+        $site-width-content: 1920px;
+
+    // @IMPORT | FILES
+        @import "variables/units";
+
+// MEDIA QUERIES
+    // BASE SETTINGS
+        $media-breakpoint-xs: 575px;
+        $media-breakpoint-sm: 576px;
+        $media-breakpoint-md: 768px;
+        $media-breakpoint-lg: 992px;
+        $media-breakpoint-xl: 1200px;
+        $media-breakpoint-xxl: 1440px;
+
+    // @IMPORT | FILES
+        @import "variables/media";
+
+// LINKS
+    // BASE SETTINGS
+        $link-color: $color-vsshealy-orange;
+        $link-hover-color: $color-vsshealy-orange-light-4;
+
+    // @IMPORT | FILES
+        @import "objects/links";
+
+// TEXT
+    // BASE SETTINGS
+        // FONT STACKS
+            $font-sans: sans-serif;
+            $font-serif: serif;
+
+        // HEADINGS
+            $heading-text: $font-sans;
+            $heading-text-color: $color-grayscale-dark-12;
+
+        // BODY
+            $body-text: $font-sans;
+            $body-text-color: $color-grayscale-dark-4;
+
+        // LINKS
+            $text-link-color: $link-color;
+            $text-link-hover-color: $link-hover-color;
+
+    // @IMPORT | FILES
+        @import "objects/text";
+
+// LAYOUT SETTINGS
+    // BASE SETTINGS
+        $body-background-color: $color-grayscale-light-9;
+        $body-mobile-gutter: $base-unit;
+
+    // @IMPORT | FILES
+        @import "layouts/site";
+        @import "layouts/clearfix";
+        @import "layouts/devices";
+        @import "layouts/flexbox";
+        @import "layouts/wrappers";
+        @import "objects/images";
+        @import "objects/videos";
+
+// OBJECT SETTINGS
+    // BUTTONS
+        // BASE SETTINGS
+            $button-color: $link-color;
+            $button-font: $body-text;
+
+        // @IMPORT | FILES
+            @import "objects/buttons";
+
+    // BORDERS
+        // BASE SETTINGS
+            $border-width: 0.15rem;
+            $border-radius: 0.00rem;
+            $border-color: $color-grayscale-light-12;
+
+        // @IMPORT | FILES
+            @import "objects/borders";
+
+    // SHADOWS
+        // BASE SETTINGS
+            $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+
+        // @IMPORT | FILES
+            @import "objects/shadows";
+
+    // BACKGROUNDS
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "objects/backgrounds";
+
+    // GRADIENTS
+        // BASE SETTINGS
+            $gradient-hero: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.90) 0.00%, rgba($color-grayscale-dark-12, 0.40) 100.00%);
+
+        // @IMPORT | FILES
+            @import "objects/gradients";
+
+    // BANNERS
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "objects/banners";
+
+    // FORMS
+        // BASE SETTINGS
+            $form-font: $body-text;
+
+        // @IMPORT | FILES
+            @import "objects/forms";
+
+    // HEROES
+        // BASE SETTINGS
+            $hero-home-height: 100.00vh;
+            $hero-subpage-height: 25.00vh;
+            
+        // @IMPORT | FILES
+            @import "objects/heroes";
